@@ -17,7 +17,7 @@ puts "Number of stores: #{Store.count}"
   puts "#{store.annual_revenue}"
 end
 
-@womens_stores = Store.where(womens_apparel: true, annual_revenue: (...1000000000))
+@womens_stores = Store.where(womens_apparel: true, annual_revenue: (...1000000))
 
 @womens_stores.each do |store|
   puts "#{store.name}"
